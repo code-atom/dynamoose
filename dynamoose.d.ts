@@ -256,6 +256,7 @@ declare module "dynamoose" {
     consistent(filter: any): ScanInterface<T>;
     where(filter: any): ScanInterface<T>;
     filter(filter: any): ScanInterface<T>;
+    or(): ScanInterface<T>;
     and(): ScanInterface<T>;
     not(): ScanInterface<T>;
     null(): ScanInterface<T>;
